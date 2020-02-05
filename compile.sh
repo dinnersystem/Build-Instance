@@ -2,7 +2,9 @@
 rm -r Factory-Frontend
 
 git clone https://github.com/dinnersystem/Factory-Frontend
-zip client.zip Factory-Frontend/FactoryClient/FactoryClient/bin/Release/
+cd Factory-Frontend/FactoryClient/FactoryClient/bin/Release/
+zip client.zip *
+cd ../../../../../
 
 mv client.zip server_constant_files
 
