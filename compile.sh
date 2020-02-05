@@ -6,6 +6,6 @@ cd Factory-Frontend/FactoryClient/FactoryClient/bin/Release/
 zip client.zip *
 cd ../../../../../
 
-mv client.zip server_constant_files
+mv Factory-Frontend/FactoryClient/FactoryClient/bin/Release/client.zip server_constant_files
 
 rm -r Factory-Frontend
