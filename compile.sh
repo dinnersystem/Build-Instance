@@ -7,6 +7,6 @@ mv Release Client
 zip client.zip Client/*
 cd ../../../../
 
-mv Factory-Frontend/FactoryClient/FactoryClient/bin/Release/client.zip server_constant_files
+mv Factory-Frontend/FactoryClient/FactoryClient/bin/Client/client.zip server_constant_files
 
 rm -r Factory-Frontend
