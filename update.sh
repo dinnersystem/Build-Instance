@@ -6,6 +6,7 @@ mkdir /usr/share/nginx/html
 mkdir /usr/share/nginx/html/dinnersys_beta
 mkdir /usr/share/nginx/html/dinnersys_beta/frontend
 mkdir /usr/share/nginx/html/dinnersys_beta/backend
+mkdir /usr/share/nginx/html/dinnersys_beta/factory_client
 
 git clone https://github.com/dinnersystem/Frontend-Website
 git clone https://github.com/dinnersystem/Backend
@@ -16,6 +17,7 @@ cp -r server_constant_files/u_move_u_dead /usr/share/nginx/html/dinnersys_beta/f
 cp server_constant_files/config.php /usr/share/nginx/html/dinnersys_beta/backend/backend_proc/config.php
 cp server_constant_files/backend.php /usr/share/nginx/html/dinnersys_beta/backend/backend.php
 cp server_constant_files/index.php /usr/share/nginx/html/index.php
+cp server_constant_files/client.zip /usr/share/nginx/html/dinnersys_beta/factory_client/client.zip
 
 cp server_constant_files/index.php /usr/share/nginx/html/dinnersys_beta/index.php
 
