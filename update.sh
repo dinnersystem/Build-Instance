@@ -1,3 +1,5 @@
+sh compile.sh
+
 rm -r Frontend-Website
 rm -r Backend
 
