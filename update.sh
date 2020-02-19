@@ -1,4 +1,4 @@
-sh compile.sh
+curl -L https://github.com/dinnersystem/Factory-Frontend/releases/latest/download/client.zip --output server_constant_files/client.zip
 
 rm -r Frontend-Website
 rm -r Backend
