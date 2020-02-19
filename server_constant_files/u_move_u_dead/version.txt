@@ -1,4 +1,0 @@
-{"ios":[201900021],"android":[201900024],"factory":[
-	{"version":"7" ,"next":"9" ,"updatable":"1"},
-	{"version":"9" ,"next":"unknown" ,"updatable":"0"}
-]}
