@@ -22,7 +22,5 @@ cp server_constant_files/client.zip /usr/share/nginx/html/dinnersys_beta/factory
 
 cp server_constant_files/index.php /usr/share/nginx/html/dinnersys_beta/index.php
 
-unzip -qq server_constant_files/phpMyAdmin.zip -d /usr/share/nginx/html
-
 rm -r Frontend-Website
 rm -r Backend
