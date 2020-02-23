@@ -3,8 +3,7 @@ curl -L https://github.com/dinnersystem/Factory-Frontend/releases/latest/downloa
 rm -r Frontend-Website
 rm -r Backend
 
-rm -r /usr/share/nginx/html/
-mkdir /usr/share/nginx/html
+rm -r /usr/share/nginx/html/dinnersys_beta
 mkdir /usr/share/nginx/html/dinnersys_beta
 mkdir /usr/share/nginx/html/dinnersys_beta/frontend
 mkdir /usr/share/nginx/html/dinnersys_beta/backend
