@@ -9,7 +9,7 @@ mkdir /usr/share/nginx/html/dinnersys_beta/frontend
 mkdir /usr/share/nginx/html/dinnersys_beta/backend
 mkdir /usr/share/nginx/html/dinnersys_beta/factory_client
 mkdir /usr/share/nginx/html/dinnersys_beta/fclient
-mkdir /usr/share/nginx/html/dinnersys_beta/templates
+mkdir /usr/share/nginx/html/dinnersys_beta/fclient/templates
 
 git clone https://github.com/dinnersystem/Frontend-Website
 git clone https://github.com/dinnersystem/Backend
