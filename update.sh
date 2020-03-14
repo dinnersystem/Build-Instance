@@ -30,3 +30,7 @@ cp server_constant_files/index.php /usr/share/nginx/html/dinnersys_beta/index.ph
 rm -r Frontend-Website
 rm -r Backend
 rm -r Factory-Frontend
+
+git clone https://github.com/dinnersystem/Payment_Server
+cd Payment_Server/Payment_Server
+dotnet run
