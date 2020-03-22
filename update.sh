@@ -31,6 +31,6 @@ rm -r Frontend-Website
 rm -r Backend
 rm -r Factory-Frontend
 
-git clone https://github.com/dinnersystem/Payment_Server
+git clone --branch old https://github.com/dinnersystem/Payment_Server
 cd Payment_Server/Payment_Server
 dotnet run
