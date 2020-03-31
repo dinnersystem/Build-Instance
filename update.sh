@@ -11,9 +11,9 @@ mkdir /usr/share/nginx/html/dinnersys_beta/factory_client
 mkdir /usr/share/nginx/html/dinnersys_beta/fclient
 mkdir /usr/share/nginx/html/dinnersys_beta/fclient/templates
 
-git clone --branch dev https://github.com/dinnersystem/Frontend-Website
-git clone --branch dev https://github.com/dinnersystem/Backend
-git clone --branch dev https://github.com/dinnersystem/Factory-Frontend
+git clone https://github.com/dinnersystem/Frontend-Website
+git clone https://github.com/dinnersystem/Backend
+git clone https://github.com/dinnersystem/Factory-Frontend
 cp -r Frontend-Website/* /usr/share/nginx/html/dinnersys_beta/frontend
 cp -r Backend/* /usr/share/nginx/html/dinnersys_beta/backend
 cp -r Factory-Frontend/FactoryClient/FactoryClient/publish/* /usr/share/nginx/html/dinnersys_beta/fclient
