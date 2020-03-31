@@ -1,13 +1,12 @@
-curl -L https://github.com/dinnersystem/Factory-Frontend/releases/latest/download/client.zip --output server_constant_files/client.zip
-
 rm -r Frontend-Website
 rm -r Backend
+rm -r Factory-Frontend
+rm -r Payment_Server
 
 rm -r /usr/share/nginx/html/dinnersys_beta
 mkdir /usr/share/nginx/html/dinnersys_beta
 mkdir /usr/share/nginx/html/dinnersys_beta/frontend
 mkdir /usr/share/nginx/html/dinnersys_beta/backend
-mkdir /usr/share/nginx/html/dinnersys_beta/factory_client
 mkdir /usr/share/nginx/html/dinnersys_beta/fclient
 mkdir /usr/share/nginx/html/dinnersys_beta/fclient/templates
 
