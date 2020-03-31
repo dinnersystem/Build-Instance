@@ -27,7 +27,7 @@ cp server_constant_files/client.zip /usr/share/nginx/html/dinnersys_beta/factory
 
 cp server_constant_files/index.php /usr/share/nginx/html/dinnersys_beta/index.php
 
-git clone https://github.com/dinnersystem/Payment_Server
+git clone --branch dev https://github.com/dinnersystem/Payment_Server
 mv Payment_Server/Payment_Server/* /Payment_Server/Executable
 
 rm -r Frontend-Website
