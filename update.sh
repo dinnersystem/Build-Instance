@@ -2,6 +2,7 @@ rm -r Frontend-Website
 rm -r Backend
 rm -r Factory-Frontend
 rm -r Payment_Server
+rm -r /Payment_Server/Executable/*
 
 rm -r /usr/share/nginx/html/dinnersys_beta
 mkdir /usr/share/nginx/html/dinnersys_beta
