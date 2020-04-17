@@ -29,4 +29,5 @@ rm -r Factory-Frontend
 
 git clone https://github.com/dinnersystem/Payment_Server
 cd Payment_Server/Payment_Server
-dotnet run
+npm install
+node app.js
