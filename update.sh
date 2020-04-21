@@ -29,7 +29,7 @@ cp server_constant_files/index.php /usr/share/nginx/html/dinnersys_beta/index.ph
 
 git clone --branch dev https://github.com/dinnersystem/Payment_Server
 mv Payment_Server/Payment_Server/* /Payment_Server/Executable
-mv /Payment_Server/Resource/config.js /Payment_Server/Executable/
+cp /Payment_Server/Resource/config.js /Payment_Server/Executable/
 
 rm -r Frontend-Website
 rm -r Backend
