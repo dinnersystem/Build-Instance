@@ -12,7 +12,7 @@ mkdir /usr/share/nginx/html/dinnersys_beta/fclient
 mkdir /usr/share/nginx/html/dinnersys_beta/fclient/templates
 
 git clone https://github.com/dinnersystem/Frontend-Website
-git clone https://github.com/dinnersystem/Backend
+git clone --branch dev https://github.com/dinnersystem/Backend
 git clone https://github.com/dinnersystem/Factory-Frontend
 cp -r Frontend-Website/* /usr/share/nginx/html/dinnersys_beta/frontend
 cp -r Backend/* /usr/share/nginx/html/dinnersys_beta/backend
@@ -36,4 +36,5 @@ rm -r Factory-Frontend
 rm -r Payment_Server
 
 cd /Payment_Server/Executable
-dotnet run
+npm install
+node app.js
