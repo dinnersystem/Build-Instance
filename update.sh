@@ -30,4 +30,3 @@ rm -r Factory-Frontend
 git clone https://github.com/dinnersystem/Payment_Server
 cd Payment_Server/Payment_Server/Payment_Server
 npm install
-node app.js
