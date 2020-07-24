@@ -38,4 +38,3 @@ rm -r Payment_Server
 
 cd /Payment_Server/Executable
 npm install
-node app.js
