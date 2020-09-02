@@ -12,7 +12,7 @@ mkdir /usr/share/nginx/html/dinnersys_beta/fclient
 mkdir /usr/share/nginx/html/dinnersys_beta/fclient/templates
 
 git clone https://github.com/dinnersystem/Frontend-Website
-git clone --branch dev https://github.com/dinnersystem/Backend
+git clone https://github.com/dinnersystem/Backend
 git clone https://github.com/dinnersystem/Factory-Frontend
 cp -r Frontend-Website/* /usr/share/nginx/html/dinnersys_beta/frontend
 cp -r Backend/* /usr/share/nginx/html/dinnersys_beta/backend
@@ -27,7 +27,7 @@ cp server_constant_files/client.zip /usr/share/nginx/html/dinnersys_beta/factory
 
 cp server_constant_files/index.php /usr/share/nginx/html/dinnersys_beta/index.php
 
-git clone --branch dev https://github.com/dinnersystem/Payment_Server
+git clone https://github.com/dinnersystem/Payment_Server
 mv Payment_Server/Payment_Server/* /Payment_Server/Executable
 cp /Payment_Server/Resource/config.js /Payment_Server/Executable/
 
