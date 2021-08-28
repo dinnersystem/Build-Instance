@@ -39,4 +39,4 @@ rm -r Payment_Server
 cd /Payment_Server/Executable
 npm install
 
-rm /usr/share/nginx/html/dinnersys_beta/backend/README.me
+rm /usr/share/nginx/html/dinnersys_beta/backend/README.md
